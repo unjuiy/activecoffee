@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;;
+}
+ul, li {
+    list-style: none;
+}
+header {
+    border-bottom: 1px solid #737373;
+}
+header > div {
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+header .logo{
+    float: left;
+}
+header .logo img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+header .gnb{
+    float: right;
+    font-size: 0;
+}
+header .gnb > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    background: #ddd;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+header .gnb > li:hover > a {
+    background: green;
+    color: #fff;
+}
+
+header .gnb > li > a {
+    display: block;
+    padding: 10px 0;
+}
+header .gnb li:first-child {
+    margin-left: 0;
+}
+
+header .lnb {
+    display: none;
+    background: khaki;
+}
+header .gnb > li:hover > .lnb {
+    display: block;
+}
+header .lnb a {
+    display: block;
+    padding: 10px 0;
+}
+header .lnb a:hover {
+    text-decoration: underline;
+}
+
+/* container */
+#idx_top {
+    width: 100%;
+    padding: 200px 0;
+    background: url(../logo/pine_bark_premium.jpeg) no-repeat 50% 50% /cover;
+    text-align: center;
+}
+#idx_top strong,
+#idx_top p {
+    color: #fff;
+}
+#idx_top strong {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#idx_top strong span {
+    color: yellow;
+}
+#idx_top p {
+    font-size: 20px;
+    margin-top: 20px;
+}
